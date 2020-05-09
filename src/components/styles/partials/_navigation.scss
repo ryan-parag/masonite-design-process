@@ -23,6 +23,8 @@
   right: 0;
   background: $white;
   border-bottom: 1px solid $dark-disabled;
+  border-bottom-right-radius: 1.6rem;
+  border-bottom-left-radius: 1.6rem;
   transition: all 220ms ease-out 0s;
   line-height: 1;
   @media screen and (min-width: 768px) {
