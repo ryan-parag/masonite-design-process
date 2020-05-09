@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Masonite Digital Innovation Team',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'The methods documented in this step-by-step process are a collection of practical, flexible workflows a designer may use to help create a design process for themselves or for their organization.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
