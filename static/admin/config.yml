@@ -50,6 +50,57 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "src/pages/discover/index.md"
+        label: "Discover"
+        name: "discover"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Goal", name: "goal", widget: "string"}
+          - {label: "Output", name: "output", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      
+      - file: "src/pages/concept/index.md"
+        label: "Concept"
+        name: "concept"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Goal", name: "goal", widget: "string"}
+          - {label: "Output", name: "output", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "src/pages/scope/index.md"
+        label: "Scope"
+        name: "scope"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Goal", name: "goal", widget: "string"}
+          - {label: "Output", name: "output", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - file: "src/pages/detail/index.md"
+        label: "Detail"
+        name: "detail"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Goal", name: "goal", widget: "string"}
+          - {label: "Output", name: "output", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+        
+      - file: "src/pages/build/index.md"
+        label: "Build"
+        name: "build"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "default-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Goal", name: "goal", widget: "string"}
+          - {label: "Output", name: "output", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
       - file: "src/pages/products/index.md"
         label: "Products Page"
         name: "products"
