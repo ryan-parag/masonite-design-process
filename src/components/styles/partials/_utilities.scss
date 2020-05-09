@@ -1,0 +1,29 @@
+// Utilities
+@each $key,$val in $colors {
+	.u-bg--#{$key} {
+		background: $val !important;
+	}
+	
+	.u-text--#{$key} {
+		color: $val !important;
+	}
+}
+
+@each $space-key,$space-val in $spacing-sizes {
+	@each $direction-key, $direction-val in $directions {
+		.u-m#{$direction-key}--#{$space-key} {
+			margin-#{$direction-val}: $space-val;
+		}
+		.u-p#{$direction-key}--#{$space-key} {
+			padding-#{$direction-val}: $space-val;
+		}
+	}
+}
+
+.rounded {
+  border-radius: $spacing-unit;
+}
+
+.u-text-shadow {
+  text-shadow: 0px 1px 1px rgba(black, 0.2);
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/mdit-logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -35,59 +35,53 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="c-nav"
         role="navigation"
         aria-label="main-navigation"
       >
+        <Link to="/" className="navbar-item" title="Logo">
+          <img src={logo} alt="Masonite Digital Innovation Team" className="c-logo" />
+        </Link>
         <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
+          <h6 className="u-mt--xl">Design Process Steps</h6>
+          <ul className="c-list-nav u-mt--0">
+          <li className="c-list-nav__item">
+              <Link to="/" className="c-list-nav__link" activeClassName="c-list-nav__link--active">
+                Introduction
+              </Link>
+            </li>
+            <li className="c-list-nav__item">
+              <Link to="/discover" className="c-list-nav__link" activeClassName="c-list-nav__link--active">
+                1. Discover
+              </Link>
+            </li>
+            <li className="c-list-nav__item">
+              <Link to="/concept" className="c-list-nav__link" activeClassName="c-list-nav__link--active">
+                2. Concept
+              </Link>
+            </li>
+            <li className="c-list-nav__item">
+              <Link to="/scope" className="c-list-nav__link" activeClassName="c-list-nav__link--active">
+                3. Scope
+              </Link>
+            </li>
+            <li className="c-list-nav__item">
+              <Link to="/detail" className="c-list-nav__link" activeClassName="c-list-nav__link--active">
+                4. Detail
+              </Link>
+            </li>
+            <li className="c-list-nav__item">
+              <Link to="/build" className="c-list-nav__link" activeClassName="c-list-nav__link--active">
+                5. Build
+              </Link>
+            </li>
+          </ul>
           <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => this.toggleHamburger()}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+            D
           </div>
         </div>
       </nav>

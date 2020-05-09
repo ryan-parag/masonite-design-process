@@ -1,0 +1,104 @@
+$black: #000000;
+$white: #ffffff;
+$darkest-grey: #171718;
+$dark-grey: #1B1B1D;
+$medium-grey: #7C878E;
+$light-grey: #8C8C8E;
+$faded: #F5F5F5;
+
+$green: #99C221;
+$light-green: #CCD6AF;
+$dark-green: #658311;
+
+$peach: #FFF3DC;
+$dark-peach: #938B82;
+$red: #F13A59;
+$dark-red: #D32D4A;
+$blue: #0097EC;
+$dark-blue: #0077BC;
+$yellow: #FFD028;
+$dark-yellow: #ECAC25;
+
+$dark-primary: rgba(black, 0.87);
+$dark-secondary: rgba(black, 0.54);
+$dark-hint: rgba(black, 0.38);
+$dark-disabled: rgba(black, 0.24);
+
+$light-primary: rgba(white, 1);
+$light-secondary: rgba(white, 0.54);
+$light-hint: rgba(white, 0.38);
+$light-disabled: rgba(white, 0.24);
+
+$colors: (
+  black: $black,
+  darkest-grey: $darkest-grey,
+  dark-grey: $dark-grey,
+  medium-grey: $medium-grey,
+  light-grey: $light-grey,
+  faded: $faded,
+  white: $white,
+  green: $green,
+  light-green: $light-green,
+  dark-green: $dark-green,
+  peach: $peach,
+  dark-peach: $dark-peach,
+  red: $red,
+  dark-red: $dark-red,
+  blue: $blue,
+  dark-blue: $dark-blue,
+  yellow: $yellow,
+  dark-yellow: $dark-yellow
+);
+
+$text-colors: (
+  dark-primary: $dark-primary,
+  dark-secondary: $dark-secondary,
+  dark-hint: $dark-hint,
+  dark-disabled: $dark-disabled,
+  light-primary: $light-primary,
+  light-secondary: $light-secondary,
+  light-hint: $light-hint,
+  light-disabled: $light-disabled,
+);
+
+$spacing-unit: 0.8rem;
+$base-font-size: 1.8rem;
+$type-margin: $spacing-unit*3;
+
+$typography: (
+	h1: (font-size: 7.2rem, line-height:110%, font-weight: 900),
+	h2: (font-size: 5.6rem, line-height:128%, font-weight: 900),
+	h3: (font-size: 4.4rem, line-height:128%, font-weight: 900),
+	h4: (font-size: 3.6rem, line-height:128%, font-weight: 600),
+	h5: (font-size: 2.8rem, line-height:128%, font-weight: 600),
+	h6: (font-size: $base-font-size, line-height:135%, font-weight: 600),
+	p:  (font-size: $base-font-size,line-height:160%,font-weight: 400,margin-top: 0, margin-bottom: $type-margin),
+	small: (font-size: 1.4rem, font-weight: 400)
+);
+
+$typography-mobile: (
+	h1: (font-size: 4rem),
+	h2: (font-size: 3.6rem),
+	h3: (font-size: 3rem),
+	h4: (font-size: 2.4rem),
+	h5: (font-size: 1.8rem),
+	h6: (font-size: 1.5rem)
+);
+
+$spacing-sizes: (
+	0: 0,
+	xxs: $spacing-unit/4,
+	xs: $spacing-unit/2,
+	sm: $spacing-unit,
+	md: $spacing-unit*2,
+	lg: $spacing-unit*3,
+	xl: $spacing-unit*6,
+	xxl: $spacing-unit*10
+);
+
+$directions: (
+	t: top,
+	b: bottom,
+	l: left,
+	r: right
+);
