@@ -2,6 +2,7 @@
 templateKey: 'default-page'
 path: /concept
 title: Concept
+step: 2
 goal: Explore a broad range of ways to solve the problem in lowest possible fidelity that can give you sufficient confidence to decide on which direction to go. Not everything needs to be figured out, but you should cross the threshold where you feel confident that this is the right solution and you're not missing out on opportunities.
 output: Decision on a concept you and your team believes is going to be the right solution for the problem. The Concept should be written either as a Notion or Confluence doc that can be shared and referenced later.
 ---

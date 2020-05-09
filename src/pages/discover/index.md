@@ -2,6 +2,7 @@
 templateKey: 'default-page'
 path: /discover
 title: Discover
+step: 1
 goal: Develop a sharp understanding and articulation of the problem we're trying to solve. Ensure we've asked enough questions and challenged assumptions. Consider how it impacts our customers, their end-users and our own business.
 output: Refined discovery based on your feedback and findings. Research findings should be captured in a Notion or Confluence doc.
 ---

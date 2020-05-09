@@ -2,6 +2,7 @@
 templateKey: 'default-page'
 path: /build
 title: Build
+step: 5
 goal: Work with Engineers to finalize design, resolve edge cases, polish, QA and ship a solution.
 output: Your design implemented in high quality and shipped.
 ---

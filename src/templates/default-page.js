@@ -4,12 +4,13 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const DefaultPageTemplate = ({ title, content, contentComponent, goal, output }) => {
+export const DefaultPageTemplate = ({ title, content, contentComponent, step, goal, output }) => {
   const PageContent = contentComponent || Content
 
   return (
     <section>
-      <h1>
+      <h5 className="u-text--light-grey u-mb--0">Step {step}</h5>
+      <h1 className="u-mt--0">
         {title}
       </h1>
       <div className="u-pt--lg u-pb--lg u-pr--lg u-pl--lg rounded u-bg--blue u-text--white u-mt--xl u-text-shadow">
@@ -40,6 +41,7 @@ const DefaultPage = ({ data }) => {
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         content={post.html}
+        step={post.frontmatter.step}
         goal={post.frontmatter.goal}
         output={post.frontmatter.output}
       />
@@ -59,6 +61,7 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        step
         goal
         output
       }

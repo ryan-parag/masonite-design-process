@@ -54,9 +54,9 @@ const TemplateWrapper = ({ children }) => {
       <div className="c-layout">
         <main className="c-layout__body">
           {children}
+          <Footer />
         </main>
       </div>
-      <Footer />
     </div>
   )
 }

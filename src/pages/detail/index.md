@@ -2,6 +2,7 @@
 templateKey: 'default-page'
 path: /detail
 title: Detail
+step: 4
 goal: Figure out the necessary flow and interaction design details to enable engineers to start building the scoped solution.
 output: High fidelity designs/prototypes shared with engineers to start building.
 ---

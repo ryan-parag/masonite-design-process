@@ -1,0 +1,12 @@
+.c-button {
+  cursor: pointer;
+  background: $darkest-grey;
+  color: $white;
+  border-radius: 0.8rem;
+  font-family: inherit;
+  border: 0;
+  padding: 0.8rem 1.2rem;
+  &:focus, &:active {
+    outline: 0;
+  }
+}

@@ -1,6 +1,6 @@
 ---
-templateKey: index-page
-title: Great coffee with a conscience
+templateKey: blank-page
+title: Design Process
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
@@ -68,3 +68,25 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 ---
+
+##### Masonite Digital Innovation Team
+
+This design process is an iterative method that helps you continuously improve and polish your designs. In the process, you go through different stages repeatedly while evaluating your designs on each stage. Each stage involves relevant stakeholders in your organization that take part in the process to make your products highly efficient and usable.
+
+Note that this process is elastic. You might need to expand or contract each stage based on the needs of your project, but you should still go through each stage. You might also need to go backwards as new insights arise.
+
+Each stage has different activities you should and could do. Your Discovery has sliders that define how much do we want to innovate, how urgent a project is and how much are we willing to invest. Based on that you decide which things you will do.
+
+##### Tools
+
+- **Design tool for making wireframes/High-fidelity designs** (Examples: Sketch, Figma, Adobe XD)
+- **Design handover/documentation tool** (Examples: Zeplin, Abstract, Invision, Airtable)
+- **Communication tools** (Examples: Slack, Skype, Zoom, Teams)
+- **Note taking tool** (Examples: Notion, Confluence, OneNote, Things, Evernote)
+- **Code Editor** (Examples: Atom, VS Code, Sublime Text)
+
+##### How does this process work alongside Agile and engineering?
+
+We practice a loose Dual-track agile process, an approach advocated by Marty Cagan of the Silicon Valley Product Group.
+
+In this methodology, there is a discovery track (learn about the problems, e.g. Discover, Concept, Scope) and a delivery track (build the solution, e.g. Detail, Build) - reminisicent of the classic Double Diamond

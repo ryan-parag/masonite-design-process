@@ -2,6 +2,7 @@
 templateKey: 'default-page'
 path: /scope
 title: Scope
+step: 3
 goal: Work with your team to figure what's the smallest coherent solution of your Concept that can be shipped and tested if it has solved the problem.
 output: Scope set for the first solution that you'll design, ship and learn from.
 ---

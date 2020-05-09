@@ -8,6 +8,41 @@
   bottom: 0;
   background: $white;
   border-right: 1px solid $dark-disabled;
+  transition: all 220ms ease-out 0s;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.c-mobile-nav {
+  position: fixed;
+  width: 100%;
+  padding: 0.8rem 1.6rem;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: $white;
+  border-bottom: 1px solid $dark-disabled;
+  transition: all 220ms ease-out 0s;
+  line-height: 1;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__list {
+    display: none;
+    &.is-active {
+      display: block;
+    }
+  }
+}
+
+.c-mobile-logo {
+  display: inline-block;
 }
 
 .c-logo {
